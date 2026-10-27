@@ -37,14 +37,16 @@ This project takes the body types, Age, Height, and Weight, to accurately predic
 
 ## Results
 
+By filtering the dataset to only include records where the user reported the clothing "fit" perfectly, we trained model to learn actual sizing, not just rental habits.
+
 | Metric | Score |
 |---|---|
-| **Accuracy** | **71.13%** |
-| Large (F1-Score) | 0.77 |
-| Small (F1-Score) | 0.73 |
-| Medium (F1-Score) | 0.64 |
+| **Accuracy** | **72.52%** |
+| Large (F1-Score) | 0.78 |
+| Small (F1-Score) | 0.74 |
+| Medium (F1-Score) | 0.67 |
 
-The model performs exceptionally well at distinguishing between Small, Medium, and Large sizes, proving that combining Weight with Body Type is a highly effective strategy for size prediction.
+By filtering the dataset to only include records where the user reported the clothing "fit" perfectly, the model achieved a robust 72.52% accuracy. The model is highly reliable for Large and Small sizes, with slight difficulty in the subjective 'Medium' category.
 
 ## Project Structure
 
